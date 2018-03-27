@@ -54,16 +54,16 @@ final class Family: Person {
 }
 
 
-let steve = Person(givenName: "Steven", middleName: "Paul", familyName: "Jobs")
-let dan = Friend(givenName: "Daniel", middleName: "James", familyName: "Woodel")
-dan.whereWeMet = "Worked together at BBC News"
-let finnley = Family(givenName: "Finnley", middleName: "David", relationship: "Son")
-let dave = Family(givenName: "Dave", middleName: "deRidder", familyName: "Jones", relationship: "Father-In-Law")
-dave.countryOfResidence = "US"
+let ali = Person(givenName: "Ali", middleName: "Yorkin", familyName: "Karim")
+let aziz = Friend(givenName: "Aziz", middleName: "Pattokh", familyName: "Abdu")
+aziz.whereWeMet = "Met At The TechEvent"
+let lee = Family(givenName: "Lee", middleName: "David", relationship: "Son")
+let duck = Family(givenName: "Duck", middleName: "Lee", familyName: "Susan", relationship: "Sister-In-Law")
+duck.countryOfResidence = "USA"
 
-print(steve.displayString) // Steven Paul Jobs
-print(dan.displayString) // Daniel James Woodel - Worked together at BBC News
-print(finnley.displayString) // Finnley David Moon - Son
+print(ali.displayString)
+print(aziz.displayString)
+print(lee.displayString)
 
 // “Very Important to remember Class objects are reference types that refer to the way they are stored and referenced internally.”
 
