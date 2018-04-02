@@ -66,7 +66,5 @@ print(aziz.displayString)
 print(lee.displayString)
 
 // “Very Important to remember Class objects are reference types that refer to the way they are stored and referenced internally.”
-
-
-
+// Further Info: http://swiftbook.link/docs/classes-and-structures.
 //: [Next](@next)
